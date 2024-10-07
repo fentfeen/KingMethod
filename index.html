@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>King Method</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>King Method</h1>
+    <p class="subtext">Chats will save but be automatically cleared after 7 days.</p>
+  </header>
+
+  <main id="tab-section">
+    <div id="tabs">
+      <!-- Dynamic Tabs will be appended here -->
+    </div>
+    <button id="new-tab-btn" aria-label="Create a new tab">+ New Tab</button>
+  </main>
+
+  <section id="chat-section">
+    <form id="ai-form" aria-label="Chat with AI">
+      <textarea id="user-input" placeholder="Type your question here..." rows="4"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <section id="output">
+      <h2>AI Response:</h2>
+      <div id="ai-response"></div>
+    </section>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
